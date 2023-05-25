@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KATIK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar-wrapper">
+          <span class="big-title">Katik</span
+          ><span class="small-title"> Kalkulator Matematik</span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="row-title">
+            <div class="title-wrapper">
+              <div class="title-caption">
+                <h1>Welcome to Katik</h1>
+                <span>Hai Sobat, Selamat datang di Katik</span><br />
+                <span
+                  >Sebuah web apps sederhana yang berfungsi untuk menghitung
+                  luas dan keliling bangun datar</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row-name">
+            <div class="col col-persegi">
+              <div class="text-wrapper">
+                <span>Persegi</span>
+              </div>
+            </div>
+            <div class="col col-persegi-panjang">
+              <div class="text-wrapper">
+                <span>P. Panjang</span>
+              </div>
+            </div>
+          </div>
+          <div class="row-persegi">
+            <!-- luas -->
+            <div class="col-luas">
+              <div class="luas-content-wrapper">
+                <div class="luas-image">
+                  <div class="image-wrapper">
+                    <img
+                      src="assets/bujur-sangkar.png"
+                      alt="bujur-sangkar"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="luas-text">
+                  <div class="luas-formula">
+                    <h5>Rumus Luas Persegi yaitu :</h5>
+                    <strong>L = S X S</strong>
+                  </div>
+                  <div class="luas-information">
+                    <h5>Di mana :</h5>
+                    <ul>
+                      <li>L : Luas</li>
+                      <li>S : Sisi</li>
+                    </ul>
+                  </div>
+
+                  <div class="luas-form">
+                    <h2>Hitung Luas Persegi</h2>
+                    <form id="form">
+                      <div class="form-wrapper">
+                        <div class="input">
+                          <input
+                            type="number"
+                            placeholder="Nilai sisi"
+                            name="sisi-luas"
+                            id="sisi-luas"
+                            required
+                          />
+                        </div>
+                        <div class="button">
+                          <button
+                            type="submit"
+                            id="hitung-luas"
+                            class="hitung-luas"
+                          >
+                            Hitung
+                          </button>
+                          <button id="reset-luas" class="reset-luas">
+                            Reset
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <ul>
+                      <li class="output_luas"></li>
+                      <li class="output_luas"></li>
+                      <li class="output_luas"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- luas -->
+
+            <!-- keliling -->
+            <div class="col-keliling">
+              <div class="keliling-content-wrapper">
+                <div class="keliling-image">
+                  <div class="image-wrapper">
+                    <img
+                      src="assets/bujur-sangkar.png"
+                      alt="bujur-sangkar"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="keliling-text">
+                  <div class="keliling-formula">
+                    <h5>Rumus Luas Persegi yaitu :</h5>
+                    <strong>K = 4 X S</strong>
+                  </div>
+                  <div class="keliling-information">
+                    <h5>Di mana :</h5>
+                    <ul>
+                      <li>K : Keliling</li>
+                      <li>S : Sisi</li>
+                    </ul>
+                  </div>
+
+                  <div class="keliling-form">
+                    <h2>Hitung Keliling Persegi</h2>
+                    <form>
+                      <div class="form-wrapper">
+                        <div class="input">
+                          <input
+                            type="number"
+                            placeholder="Nilai sisi"
+                            name="sisi-keliling"
+                            id="sisi-keliling"
+                            required
+                          />
+                        </div>
+                        <div class="button">
+                          <button
+                            type="submit"
+                            id="hitung-keliling"
+                            class="hitung-keliling"
+                          >
+                            Hitung
+                          </button>
+                          <button id="reset-keliling" class="reset-keliling">
+                            Reset
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <ul class="output_keliling"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- keliling -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
