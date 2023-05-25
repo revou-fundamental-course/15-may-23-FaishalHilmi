@@ -1,0 +1,539 @@
+:root {
+  --light-blue-color: #3498db;
+  --dark-blue-color: #3498db;
+  --yellow-color: #efad4e;
+  --light-grey-color: #d4d5d5;
+}
+
+/* assets class */
+.btn-blue {
+  color: var(--dark-blue-color);
+  color: white;
+}
+
+.btn-yellow {
+  color: var(--yellow-color);
+  color: white;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+nav {
+  background-color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+nav .navbar-wrapper .big-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+nav .navbar-wrapper .small-title {
+  color: var(--light-grey-color);
+}
+
+/* main */
+.container {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.container .main-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px 0;
+}
+
+/* title */
+
+.row-title {
+  margin-bottom: 10px;
+}
+
+.row-title .title-wrapper .title-caption {
+  text-align: center;
+}
+
+.row-title .title-wrapper .title-caption h1 {
+  margin-bottom: 10px;
+}
+
+.row-name {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* name */
+
+.row-name .col {
+  width: 8em;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.row-name .col .text-wrapper {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.row-name .col-persegi .text-wrapper {
+  color: white;
+  background-color: var(--dark-blue-color);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.row-name .col-persegi-panjang .text-wrapper {
+  border: 1px solid var(--dark-blue-color);
+  color: var(--dark-blue-color);
+}
+
+/* persegi */
+
+.row-persegi {
+  display: flex;
+  padding: 0 14px;
+}
+
+.row-persegi .col-luas {
+  width: 100%;
+  padding: 10px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-image {
+  display: flex;
+  justify-content: center;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-image .image-wrapper {
+  width: 12em;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-text {
+  margin-top: 20px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-text .luas-formula h5 {
+  margin-bottom: 10px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-text .luas-information {
+  margin-bottom: 20px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-text .luas-information h5 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.row-persegi .col-luas .luas-content-wrapper .luas-text .luas-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .input {
+  width: 60%;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .input
+  input {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button {
+  display: flex;
+  gap: 10px;
+  width: 30%;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button
+  button {
+  width: 66px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button
+  .hitung-luas {
+  background-color: var(--dark-blue-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button
+  .hitung-luas:hover {
+  background-color: var(--dark-blue-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px var(--light-blue-color);
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button
+  .reset-luas {
+  background-color: var(--yellow-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.row-persegi
+  .col-luas
+  .luas-content-wrapper
+  .luas-text
+  .luas-form
+  .form-wrapper
+  .button
+  .reset-luas:hover {
+  background-color: var(--yellow-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px var(--yellow-color);
+}
+
+/* keliling */
+
+.row-persegi .col-keliling {
+  width: 100%;
+  padding: 10px;
+}
+
+.row-persegi .col-keliling .keliling-content-wrapper {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.row-persegi .col-keliling .keliling-content-wrapper .keliling-image {
+  display: flex;
+  justify-content: center;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-image
+  .image-wrapper {
+  width: 12em;
+}
+
+.row-persegi .col-keliling .keliling-content-wrapper .keliling-text {
+  margin-top: 20px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-formula
+  h5 {
+  margin-bottom: 10px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-information {
+  margin-bottom: 20px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-information
+  h5 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .input {
+  width: 60%;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .input
+  input {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button {
+  display: flex;
+  gap: 10px;
+  width: 30%;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button
+  button {
+  width: 66px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button
+  .hitung-keliling {
+  background-color: var(--dark-blue-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button
+  .hitung-keliling:hover {
+  background-color: var(--dark-blue-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px var(--light-blue-color);
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button
+  .reset-keliling {
+  background-color: var(--yellow-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.row-persegi
+  .col-keliling
+  .keliling-content-wrapper
+  .keliling-text
+  .keliling-form
+  .form-wrapper
+  .button
+  .reset-keliling:hover {
+  background-color: var(--yellow-color);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px var(--yellow-color);
+}
+
+@media screen and (max-width: 768px) {
+  .row-persegi {
+    display: block;
+    padding: 0 14px;
+  }
+
+  .row-title .title-wrapper .title-caption h1 {
+    font-size: 28px;
+  }
+
+  /* luas */
+  .row-persegi
+    .col-luas
+    .luas-content-wrapper
+    .luas-text
+    .luas-form
+    .form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-persegi
+    .col-luas
+    .luas-content-wrapper
+    .luas-text
+    .luas-form
+    .form-wrapper
+    .input {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .row-persegi
+    .col-luas
+    .luas-content-wrapper
+    .luas-text
+    .luas-form
+    .form-wrapper
+    .button {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 4px;
+  }
+
+  /* keliling */
+  .row-persegi
+    .col-keliling
+    .keliling-content-wrapper
+    .keliling-text
+    .keliling-form
+    .form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-persegi
+    .col-keliling
+    .keliling-content-wrapper
+    .keliling-text
+    .keliling-form
+    .form-wrapper
+    .input {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .row-persegi
+    .col-keliling
+    .keliling-content-wrapper
+    .keliling-text
+    .keliling-form
+    .form-wrapper
+    .button {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 4px;
+  }
+}
